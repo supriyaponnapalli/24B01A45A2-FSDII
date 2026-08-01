@@ -1,15 +1,15 @@
-let dynamicData: any = 404;
-dynamicData = "Server Not Found";
-dynamicData = false;
+let x: any = 1;
+x = "hi";
+x = true;
 
-let unparsedInput: unknown = "System Online";
+let y: unknown = "test";
 
-if (typeof unparsedInput === "string") {
-    console.log("Character count of input: " + unparsedInput.length);
+if (typeof y == "string") {
+    console.log(y.length);
 }
 
-function printSystemStatus(status: string): void {
-    console.log("STATUS: " + status);
+function show(m: string): void {
+    console.log(m);
 }
 
-printSystemStatus("Boot Sequence Initiated");
+show("done");
